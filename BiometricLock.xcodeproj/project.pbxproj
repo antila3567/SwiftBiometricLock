@@ -11,6 +11,7 @@
 		DDC37C932B38482D005083EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC37C922B38482D005083EB /* ContentView.swift */; };
 		DDC37C952B38482E005083EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC37C942B38482E005083EB /* Assets.xcassets */; };
 		DDC37C982B38482E005083EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC37C972B38482E005083EB /* Preview Assets.xcassets */; };
+		DDC37CA82B385E3E005083EB /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC37CA72B385E3E005083EB /* LockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DDC37C922B38482D005083EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDC37C942B38482E005083EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC37C972B38482E005083EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC37CA72B385E3E005083EB /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DDC37C8F2B38482D005083EB /* BiometricLock */ = {
 			isa = PBXGroup;
 			children = (
+				DDC37CA52B385E18005083EB /* View */,
 				DDC37C902B38482D005083EB /* BiometricLockApp.swift */,
 				DDC37C922B38482D005083EB /* ContentView.swift */,
 				DDC37C942B38482E005083EB /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DDC37C972B38482E005083EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDC37CA52B385E18005083EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC37CA72B385E3E005083EB /* LockView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DDC37C932B38482D005083EB /* ContentView.swift in Sources */,
 				DDC37C912B38482D005083EB /* BiometricLockApp.swift in Sources */,
+				DDC37CA82B385E3E005083EB /* LockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
