@@ -94,6 +94,11 @@ struct LockView<Content: View>: View {
                 isUnlocked = false
                 pin = ""
             }
+            
+            if newValue == .active && !isUnlocked && isEnabled {
+                unlockView()
+            }
+
         }
     }
     
